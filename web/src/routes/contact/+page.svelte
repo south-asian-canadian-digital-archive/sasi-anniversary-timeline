@@ -37,6 +37,10 @@
     };
 </script>
 
+<svelte:head>
+    <title> {import.meta.env.VITE_COMPANY_NAME} - Contact</title> 
+</svelte:head>
+
 <div class="flex justify-center items-center h-full">
     <form on:submit={handleSubmit} class="flex flex-col gap-4">
         <div>

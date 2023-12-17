@@ -27,6 +27,8 @@
  */
 declare module '$env/static/private' {
 	export const VITE_FORM_ACCESS_KEY: string;
+	export const VITE_DOMAIN: string;
+	export const VITE_COMPANY_NAME: string;
 	export const USER: string;
 	export const npm_config_user_agent: string;
 	export const SSH_AGENT_PID: string;
@@ -144,6 +146,8 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		VITE_FORM_ACCESS_KEY: string;
+		VITE_DOMAIN: string;
+		VITE_COMPANY_NAME: string;
 		USER: string;
 		npm_config_user_agent: string;
 		SSH_AGENT_PID: string;

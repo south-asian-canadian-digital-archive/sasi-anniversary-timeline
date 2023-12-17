@@ -5,8 +5,9 @@
 </script>
 
 <svelte:head>
-  <title>app name here</title>
+    <title> {import.meta.env.VITE_COMPANY_NAME}</title> 
 </svelte:head>
+
 
 <div class="h-screen flex flex-col justify-between">
   <Header /> 
