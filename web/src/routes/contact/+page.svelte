@@ -1,4 +1,7 @@
 <script lang="ts">
+    
+    import { PUBLIC_COMPANY_NAME } from "$env/static/public";
+
     let name: string;
     let email: string;
     let phone: string;
@@ -38,7 +41,7 @@
 </script>
 
 <svelte:head>
-    <title> {import.meta.env.VITE_COMPANY_NAME} - Contact</title> 
+    <title> {PUBLIC_COMPANY_NAME} - Contact</title> 
 </svelte:head>
 
 <div class="flex justify-center items-center h-full">

@@ -1,4 +1,7 @@
 <script>
+
+import { PUBLIC_COMPANY_NAME, PUBLIC_DOMAIN } from "$env/static/public";
+
 </script>
 
 <footer>
@@ -10,9 +13,9 @@
   <div
     class="h-16 w-full text-white bg-gray-300 text-sm flex flex-row justify-between items-center px-[15%]"
   >
-    <p>{import.meta.env.VITE_DOMAIN}</p>
+    <p>{PUBLIC_DOMAIN}</p>
     <p>
-      Copyright © 2024 - 2028 {import.meta.env.VITE_COMPANY_NAME}. All rights
+      Copyright © 2024 - 2028 {PUBLIC_COMPANY_NAME}. All rights
       reserved.
     </p>
   </div>
