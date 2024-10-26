@@ -9,10 +9,6 @@
     let phone: string;
     let message: string;
 
-    const handleSubmit = (event: SubmitEvent) => {
-        event.preventDefault();
-
-    };
 </script>
 
 <svelte:head>
