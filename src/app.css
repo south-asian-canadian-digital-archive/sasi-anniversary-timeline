@@ -4,6 +4,7 @@
 
 @layer base {
   :root {
+    --timeline-line-color: hsl(82, 51%, 57%);
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
     --muted: 0 0% 96.1%;
@@ -24,7 +25,7 @@
     --destructive-foreground: 0 0% 98%;
     --ring: 0 0% 3.9%;
     --radius: 0.5rem;
-	--sidebar-background: 0 0% 98%;
+    --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
     --sidebar-primary-foreground: 0 0% 98%;
@@ -54,7 +55,7 @@
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
     --ring: 0 0% 83.1%;
-	--sidebar-background: 240 5.9% 10%;
+    --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
     --sidebar-primary-foreground: 0 0% 100%;
@@ -69,6 +70,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }

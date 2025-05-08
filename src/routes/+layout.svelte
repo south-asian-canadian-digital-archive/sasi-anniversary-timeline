@@ -93,9 +93,9 @@
     class="flex h-screen flex-col justify-between"
   > -->
     <!-- <Header /> -->
-    <main class="bg-gray-50">
+    <div class="bg-gray-50">
       {@render children?.()}
-    </main>
+    </div>
     <!-- <Footer /> -->
   <!-- </div>
 {/key} -->
