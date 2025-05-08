@@ -26,9 +26,6 @@ importers:
       embla-carousel-autoplay:
         specifier: ^8.5.1
         version: 8.5.1(embla-carousel@8.5.1)
-      gsap:
-        specifier: ^3.12.5
-        version: 3.12.5
       svelte-radix:
         specifier: ^2.0.1
         version: 2.0.1(svelte@5.13.0)
@@ -51,12 +48,6 @@ importers:
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
-      embla-carousel-svelte:
-        specifier: ^8.5.1
-        version: 8.5.1(svelte@5.13.0)
-      mode-watcher:
-        specifier: 1.0.4
-        version: 1.0.4(svelte@5.13.0)
       prettier:
         specifier: ^3.3.2
         version: 3.4.2
@@ -72,9 +63,6 @@ importers:
       svelte-check:
         specifier: ^4.0.0
         version: 4.1.1(svelte@5.13.0)(typescript@5.7.2)
-      svelte-sonner:
-        specifier: ^0.3.28
-        version: 0.3.28(svelte@5.13.0)
       tailwind-merge:
         specifier: ^2.5.5
         version: 2.5.5
@@ -650,16 +638,6 @@ packages:
     peerDependencies:
       embla-carousel: 8.5.1
 
-  embla-carousel-reactive-utils@8.5.1:
-    resolution: {integrity: sha512-n7VSoGIiiDIc4MfXF3ZRTO59KDp820QDuyBDGlt5/65+lumPHxX2JLz0EZ23hZ4eg4vZGUXwMkYv02fw2JVo/A==}
-    peerDependencies:
-      embla-carousel: 8.5.1
-
-  embla-carousel-svelte@8.5.1:
-    resolution: {integrity: sha512-sCQDCn+kyuLUysXFRCTboSTslI0LUV5OhVqBAXnSphJ/mYdlbYfMhk03MGck+Mogdgpf9zYrBocp2uF6qUBNAw==}
-    peerDependencies:
-      svelte: ^3.49.0 || ^4.0.0 || ^5.0.0
-
   embla-carousel@8.5.1:
     resolution: {integrity: sha512-JUb5+FOHobSiWQ2EJNaueCNT/cQU9L6XWBbWmorWPQT9bkbk+fhsuLr8wWrzXKagO3oWszBO7MSx+GfaRk4E6A==}
 
@@ -735,9 +713,6 @@ packages:
 
   globrex@0.1.2:
     resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
-
-  gsap@3.12.5:
-    resolution: {integrity: sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==}
 
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
@@ -834,11 +809,6 @@ packages:
   minipass@7.1.2:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
-
-  mode-watcher@1.0.4:
-    resolution: {integrity: sha512-Jrz6/fXtJur5GAvJHSZ2cRPgBAIJ044sldEazydp+jc00qNXLc/BIGOSCNAu28JY1yxvZXeM6ye9iFqS8te9qQ==}
-    peerDependencies:
-      svelte: ^5.27.0
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -1053,11 +1023,6 @@ packages:
     peerDependencies:
       svelte: ^5.7.0
 
-  runed@0.25.0:
-    resolution: {integrity: sha512-7+ma4AG9FT2sWQEA0Egf6mb7PBT2vHyuHail1ie8ropfSjvZGtEAx8YTmUjv/APCsdRRxEVvArNjALk9zFSOrg==}
-    peerDependencies:
-      svelte: ^5.7.0
-
   sade@1.8.1:
     resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
     engines: {node: '>=6'}
@@ -1126,11 +1091,6 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=7.0.0'}
     peerDependencies:
       svelte: ^5.0.0
-
-  svelte-sonner@0.3.28:
-    resolution: {integrity: sha512-K3AmlySeFifF/cKgsYNv5uXqMVNln0NBAacOYgmkQStLa/UoU0LhfAACU6Gr+YYC8bOCHdVmFNoKuDbMEsppJg==}
-    peerDependencies:
-      svelte: ^3.0.0 || ^4.0.0 || ^5.0.0-next.1
 
   svelte-toolbelt@0.7.1:
     resolution: {integrity: sha512-HcBOcR17Vx9bjaOceUvxkY3nGmbBmCBBbuWLLEWO6jtmWH8f/QoWmbyUfQZrpDINH39en1b8mptfPQT9VKQ1xQ==}
@@ -1676,16 +1636,6 @@ snapshots:
     dependencies:
       embla-carousel: 8.5.1
 
-  embla-carousel-reactive-utils@8.5.1(embla-carousel@8.5.1):
-    dependencies:
-      embla-carousel: 8.5.1
-
-  embla-carousel-svelte@8.5.1(svelte@5.13.0):
-    dependencies:
-      embla-carousel: 8.5.1
-      embla-carousel-reactive-utils: 8.5.1(embla-carousel@8.5.1)
-      svelte: 5.13.0
-
   embla-carousel@8.5.1: {}
 
   emoji-regex@8.0.0: {}
@@ -1779,8 +1729,6 @@ snapshots:
 
   globrex@0.1.2: {}
 
-  gsap@3.12.5: {}
-
   hasown@2.0.2:
     dependencies:
       function-bind: 1.1.2
@@ -1855,12 +1803,6 @@ snapshots:
       brace-expansion: 2.0.1
 
   minipass@7.1.2: {}
-
-  mode-watcher@1.0.4(svelte@5.13.0):
-    dependencies:
-      runed: 0.25.0(svelte@5.13.0)
-      svelte: 5.13.0
-      svelte-toolbelt: 0.7.1(svelte@5.13.0)
 
   mri@1.2.0: {}
 
@@ -2014,11 +1956,6 @@ snapshots:
       esm-env: 1.2.1
       svelte: 5.13.0
 
-  runed@0.25.0(svelte@5.13.0):
-    dependencies:
-      esm-env: 1.2.1
-      svelte: 5.13.0
-
   sade@1.8.1:
     dependencies:
       mri: 1.2.0
@@ -2090,10 +2027,6 @@ snapshots:
       - picomatch
 
   svelte-radix@2.0.1(svelte@5.13.0):
-    dependencies:
-      svelte: 5.13.0
-
-  svelte-sonner@0.3.28(svelte@5.13.0):
     dependencies:
       svelte: 5.13.0
 

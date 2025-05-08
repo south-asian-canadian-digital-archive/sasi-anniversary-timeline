@@ -9,7 +9,6 @@
   import { injectAnalytics } from "@vercel/analytics/sveltekit";
   import Footer from "$lib/components/Footer.svelte";
   import Header from "$lib/components/Header.svelte";
-  import { Toaster } from "$lib/components/ui/sonner";
   import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit";
 
   interface Props {
@@ -88,20 +87,18 @@
 
 <svelte:window bind:scrollY />
 
-<Toaster />
-
-{#key load}
+<!-- {#key load}
   <div
     in:fade={{ duration: 400 }}
     class="flex h-screen flex-col justify-between"
-  >
-    <Header />
-    <main class="">
+  > -->
+    <!-- <Header /> -->
+    <main class="bg-gray-50">
       {@render children?.()}
     </main>
-    <Footer />
-  </div>
-{/key}
+    <!-- <Footer /> -->
+  <!-- </div>
+{/key} -->
 
 {#if scrollY !== 0}
   <button
